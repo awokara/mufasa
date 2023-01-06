@@ -847,7 +847,7 @@ footer {
       footer .contact-form button:hover, footer .contact-form button:visited {
         background: #b90b6b; }
   footer .copy {
-    background:  rgba(233, 14, 101, 0.95);
+    background:  rgba(2, 2, 2, 0.95);
     text-align: center; }
     footer .copy p {
       color: #fff; }
@@ -890,7 +890,7 @@ footer {
 
 .blog-content-inner {
   background-color: #d5ebf2;
-  background-color: rgba(249, 179, 207, 0.95);
+  background-color: #e90e668e;
   padding: 70px;
   border-radius: 15px; }
   .blog-content-inner .card-title {
