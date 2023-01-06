@@ -112,7 +112,9 @@ h2 {
       .about4{
         height: 300px;
       }
-
+      .resume{
+        height: 300px;
+      }
       .pit{
         height: 500px;
         margin-top: 140px;
@@ -150,7 +152,9 @@ h2 {
           .bg-sea{
             height: 550px !important;
             background-color: #f2d5d7;
-            
+          }
+          .resume{
+            height: auto !important;
           }
           .pit{
             height: 660px !important;
@@ -850,9 +854,12 @@ footer {
     background:  rgba(2, 2, 2, 0.95);
     text-align: center; }
     footer .copy p {
-      color: #fff; }
+      color: #fff;
+    font-size: 14px;
+  height: 5px; }
     footer .copy a {
       color: #fff;
+      /* font-size: 1px; */
       transition: 0.3s ease;
       text-decoration: none; }
       footer .copy a:hover {
@@ -862,7 +869,11 @@ footer {
       margin: 50px auto; } }
   @media (max-width: 767px) {
     footer .map {
-      min-height: 300px; } }
+      min-height: 300px; }
+      footer .copy p {
+        color: #fff;
+      font-size: 14px;
+    height: 5px; } }
 
 @media (max-width: 767px) {
   .row {
